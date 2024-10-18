@@ -5,4 +5,18 @@
 
 .badge.red {
     background-color: var(--red);
+    color: var(--red-text-color)
+}
+
+.badge.square {
+    border-radius: 8px;
+}
+
+.badge.pill {
+    border-radius: 1em;
+}
+
+.badgeText {
+    font-size: 1.1rem;
+    font-weight: 450;
 }

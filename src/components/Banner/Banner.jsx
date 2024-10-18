@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Banner({children}) {
-  return (
-    <div>{children}</div>
-  )
+function Banner({ children, className }) {
+  return <div className={className}>{children}</div>;
 }
 
-export default Banner
+export default Banner;
