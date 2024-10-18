@@ -3,17 +3,17 @@ import "./App.css";
 import Badge from "./components/Badge/index";
 import Banner from "./components/Banner/index";
 import Card from "./components/Card/index";
+import './utils/variables.css'
+import "./components/Badge/badge.css"
 
 function App() {
   return (
     <>
       <div className="appContainer">
-        <Badge className="badge square">
-          <Badge.Title>Badge Title</Badge.Title>
+        <Badge className="badge square red">
           <Badge.Text>Badge Text</Badge.Text>
         </Badge>
         <Badge className="badge pill">
-          <Badge.Title>Badge Title</Badge.Title>
           <Badge.Text>Badge Text</Badge.Text>
         </Badge>
         <Banner>

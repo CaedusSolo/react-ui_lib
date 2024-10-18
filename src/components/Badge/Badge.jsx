@@ -1,8 +1,9 @@
 import React from 'react'
 
-function Badge({children}) {
+function Badge({children, className}) {
+  
   return (
-    <div>
+    <div className={className}>
       {children}
     </div>
   )

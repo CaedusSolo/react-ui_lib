@@ -1,0 +1,16 @@
+:root {
+    --grey: #F3F4F6;
+    --grey-text-color: #1F2937;
+    --red: #FEE2E2;
+    --gred-text-color: #991B1B;
+    --yellow: #991B1B;
+    --yellow-text-color: #92400E;
+    --green: #92400E;
+    --green-text-color: #065F46;
+    --blue: #065F46;
+    --blue-text-color: #1E40AF;
+    --indigo: #E0E7FF;
+    --indigo-text-color: #3730A3;
+    --purple: #EDE9FE;
+    --purple-text-color: #5B21B6;
+}
