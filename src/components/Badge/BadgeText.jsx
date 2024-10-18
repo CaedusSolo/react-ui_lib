@@ -1,8 +1,8 @@
 import React from 'react'
 
-function BadgeText() {
+function BadgeText({children}) {
   return (
-    <div>BadgeText</div>
+    <div>{children}</div>
   )
 }
 

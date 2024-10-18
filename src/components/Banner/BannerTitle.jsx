@@ -1,9 +1,9 @@
 import React from 'react'
 
-function BadgeTitle({children}) {
+function BannerTitle({children}) {
   return (
     <div>{children}</div>
   )
 }
 
-export default BadgeTitle
+export default BannerTitle
