@@ -2,7 +2,7 @@ import React from 'react'
 
 function Badge({children}) {
   return (
-    <div className="badge">
+    <div>
       {children}
     </div>
   )

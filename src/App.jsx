@@ -2,13 +2,17 @@ import { useState } from "react";
 import "./App.css";
 import Badge from "./components/Badge/index";
 import Banner from "./components/Banner/index";
-import Card from "./components/Card/index"
+import Card from "./components/Card/index";
 
 function App() {
   return (
     <>
       <div className="appContainer">
-        <Badge>
+        <Badge className="badge square">
+          <Badge.Title>Badge Title</Badge.Title>
+          <Badge.Text>Badge Text</Badge.Text>
+        </Badge>
+        <Badge className="badge pill">
           <Badge.Title>Badge Title</Badge.Title>
           <Badge.Text>Badge Text</Badge.Text>
         </Badge>
