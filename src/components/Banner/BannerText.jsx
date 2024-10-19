@@ -1,8 +1,8 @@
 import React from 'react'
 
-function BannerText({children}) {
+function BannerText({children, className}) {
   return (
-    <div>{children}</div>
+    <p className={className}>{children}</p>
   )
 }
 

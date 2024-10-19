@@ -1,8 +1,8 @@
 import React from 'react'
 
-function BannerTitle({children}) {
+function BannerTitle({children, className}) {
   return (
-    <div>{children}</div>
+    <h3 className={className}>{children}</h3>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function BadgeText({children}) {
   return (
-    <div>{children}</div>
+    <p>{children}</p>
   )
 }
 

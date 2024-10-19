@@ -1,9 +1,23 @@
 .banner {
     padding: 0.75em;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .banner.success {
     background-color: var(--green);
     color: var(--green-text-color);
+}
+
+.banner.single {
+    align-items: center;
+}
+
+.banner.multiline {
+    align-items: start;
+}
+
+.banner.multiline .icon {
+    margin-top: 3px;
 }

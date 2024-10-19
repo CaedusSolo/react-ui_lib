@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function CardTitle({children}) {
+function CardTitle({ children, className }) {
   return (
-    <div>{children}</div>
-  )
+    <h3 className={className}>
+      {children}
+    </h3>
+  );
 }
 
-export default CardTitle
+export default CardTitle;

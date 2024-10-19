@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import BrandLogo from "../../assets/brand-icon.png";
 
-function Card({children}) {
+function Card({ children, className }) {
   return (
-    <div>{children}</div>
-  )
+    <div className={className}>
+      <img src={BrandLogo} alt="Brand Logo" className="brandLogo" />
+      {children}
+    </div>
+  );
 }
 
-export default Card
+export default Card;
