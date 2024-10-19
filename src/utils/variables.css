@@ -3,7 +3,7 @@
     --grey-text-color: #1F2937;
     --red: #FEE2E2;
     --gred-text-color: #991B1B;
-    --yellow: #991B1B;
+    --yellow: #FEF3C7;
     --yellow-text-color: #92400E;
     --green: #ECFDF5;
     --green-text-color: #065F46;
@@ -13,4 +13,6 @@
     --indigo-text-color: #3730A3;
     --purple: #EDE9FE;
     --purple-text-color: #5B21B6;
+    --pink: #FCE7F3;
+    --pink-text-color: #9D174D;
 }
