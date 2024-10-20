@@ -2,10 +2,12 @@ import "./App.css";
 import Badge from "./components/Badge/index";
 import Banner from "./components/Banner/index";
 import Card from "./components/Card/index";
+import Testimonial from "./components/Testimonial/index";
 import "./utils/variables.css";
 import "./components/Badge/badge.css";
 import "./components/Banner/banner.css";
 import "./components/Card/card.css";
+import testimonialImg from "./assets/testimonialImg.png";
 
 function App() {
   const badgeColorSchemes = [
@@ -75,13 +77,33 @@ function App() {
         </section>
         <section className="cardSection">
           <h2 className="sectionTitle">Card</h2>
-            <Card className="card">
-              <Card.Title className="cardTitle">Easy Deployment</Card.Title>
-              <Card.Text className="cardText">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
-                ipsam.
-              </Card.Text>
-            </Card>
+          <Card className="card">
+            <Card.Title className="cardTitle">Easy Deployment</Card.Title>
+            <Card.Text className="cardText">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
+              ipsam.
+            </Card.Text>
+          </Card>
+        </section>
+        <section className="testimonialSection">
+          <h2 className="sectionTitle">Testimonials</h2>
+          <Testimonial className="testimonial">
+            <div className="wrapper">
+              <img
+                src={testimonialImg}
+                alt="Image of Person"
+                className="testimonialImg"
+              />
+              <div className="flex-col">
+                <Testimonial.Text className="testimonialText">
+                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellendus consequatur distinctio minima optio odit
+                  dignissimos."
+                </Testimonial.Text>
+                <Testimonial.Name className="testimonialName">Alice Lee</Testimonial.Name>
+              </div>
+            </div>
+          </Testimonial>
         </section>
       </div>
     </>
