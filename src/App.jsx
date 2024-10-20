@@ -69,19 +69,19 @@ function App() {
         <section className="bannerSection">
           <h2 className="sectionTitle">Banners</h2>
           <div className="wrapper">
-            <h4>Single Line Banners</h4>
             <div className="singleLineBanners">{mapBanners("single")}</div>
             <div className="multiLineBanners">{mapBanners("multiline")}</div>
           </div>
         </section>
         <section className="cardSection">
-          <Card className="card">
-            <Card.Title className="cardTitle">Card Title</Card.Title>
-            <Card.Text className="cardText">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
-              ipsam.
-            </Card.Text>
-          </Card>
+          <h2 className="sectionTitle">Card</h2>
+            <Card className="card">
+              <Card.Title className="cardTitle">Easy Deployment</Card.Title>
+              <Card.Text className="cardText">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
+                ipsam.
+              </Card.Text>
+            </Card>
         </section>
       </div>
     </>

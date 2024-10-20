@@ -22,7 +22,8 @@
   width: 100%;
   max-width: 100%;
   background-color: rgb(179, 171, 217);
-  padding: 2em;
+  padding: 1.5em;
+
 }
 
 .appContainer > section {
@@ -31,9 +32,14 @@
   justify-content: center;
   gap: 1.5em;
   align-items: center;
+  width: 100%;
 }
 
-.wrapper {
+/* .wrapper {
+  width: 100%;
+} */
+
+.badgeSection > .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,4 +54,26 @@
   justify-content: space-evenly;
   width: 100%;
   gap: 0.75em;
+}
+
+.bannerSection .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2em;
+}
+
+.singleLineBanners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.multiLineBanners {
+  display: flex;
+  flex-direction: column;
+  gap: 1em
 }
