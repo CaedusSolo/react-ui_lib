@@ -86,8 +86,8 @@ function App() {
           </Card>
         </section>
         <section className="testimonialSection">
-          <h2 className="sectionTitle">Testimonials</h2>
-          <Testimonial className="testimonial">
+          <h2 className="sectionTitle">Testimonial</h2>
+          <Testimonial className="testimonial testimonial-withPicture">
             <div className="wrapper">
               <img
                 src={testimonialImg}
@@ -100,7 +100,10 @@ function App() {
                   Repellendus consequatur distinctio minima optio odit
                   dignissimos."
                 </Testimonial.Text>
-                <Testimonial.Name className="testimonialName">Alice Lee</Testimonial.Name>
+                <Testimonial.Name className="testimonialName">
+                  <p>Alice Lee</p>
+                  <p>CTO</p>
+                </Testimonial.Name>
               </div>
             </div>
           </Testimonial>
